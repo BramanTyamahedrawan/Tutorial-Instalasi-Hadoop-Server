@@ -52,6 +52,25 @@
     - Klik "Done" untuk melanjutkan.
 13. Proses instalasi akan dimulai. Tunggu hingga selesai.
 14. Setelah instalasi selesai, pilih "Reboot now" untuk me-restart mesin virtual.
-15. Setelah reboot, Anda akan melihat prompt login.
-16. Masukkan username dan password yang telah Anda buat sebelumnya untuk masuk ke sistem.
-17. Setelah masuk, Anda dapat mulai menggunakan Ubuntu Server di mesin virtual Anda.
+15. Jika anda melihat gambar seperti ini maka press enter
+
+    ![ENTER](<Screenshot 2025-05-20 125218.png>)
+
+    Ini adalah pesan umum yang muncul ketika sistem operasi mencoba untuk mengeluarkan (unmount) media instalasi (ISO) setelah instalasi selesai, tetapi gagal melakukannya.
+
+16. Jika masih menampilkan pesan error yang sama, Anda bisa:
+
+
+    - Matikan VM (shutdown)
+    - Di VirtualBox Manager, pilih VM Anda
+    - Klik "Settings"
+    - Pilih "Storage"
+    - Pada Controller IDE, klik pada file ISO yang terpasang
+    - Klik ikon disk kecil di sebelah kanan dan pilih "Remove Disk from Virtual Drive"
+    - Klik "OK"
+    - Jalankan kembali VM
+
+17. Setelah reboot, Anda akan melihat prompt login.
+18. Masukkan username dan password yang telah Anda buat sebelumnya untuk masuk ke sistem.
+19. Setelah masuk, Anda dapat mulai menggunakan Ubuntu Server di mesin virtual Anda.
+20. Untuk langkah 15 dan 16 adalah langkah yang kadang muncul, jika tidak muncul maka tidak perlu melakukan langkah tersebut.
