@@ -1,4 +1,4 @@
-# ** Download Linux dan Virtual Machine (VM)**
+# **Download Linux dan Virtual Machine (VM)**
 
 ## **Langkah 1: Download Virtual Box**
 
