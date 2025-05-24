@@ -86,6 +86,9 @@
 
    **HAPUS saja baris tersebut, karena itu adalah IP lokal yang tidak diperlukan dalam konfigurasi ini.**
 
+   **Hasilnya akan terlihat seperti ini:**
+   ![Hasil Konfigurasi](<Screenshot 2025-05-20 231045.png>)
+
 3. Simpan perubahan dengan menekan `CTRL + X`, lalu tekan `Y` untuk mengonfirmasi penyimpanan, dan tekan `Enter` untuk keluar dari editor.
 4. Ulangi langkah 1-3 untuk setiap VM yang telah Anda buat
 5. Setelah lakukan reboot pada setipa VM
@@ -95,6 +98,7 @@
    ```
 
 6. Setelah reboot, pastikan konfigurasi hosts telah berhasil dengan menjalankan perintah berikut pada setiap VM:
+
    ```bash
    ping hadoop-primary
    ping hadoop-secondary-1
@@ -103,4 +107,9 @@
    ping zookeeper-2
    ping zookeeper-3
    ```
+
    pastikan setiap VM dapat saling ping satu sama lain menggunakan hostname yang telah Anda atur.
+
+   ![ping](<Screenshot 2025-05-20 231547.png>)
+
+   **Jika ping berhasil, berarti konfigurasi hostname dan hosts file telah berhasil dilakukan.**
