@@ -28,7 +28,7 @@
 1. Setelah Java terinstal, Anda perlu menambahkan JAVA_HOME ke dalam environment variables.
 2. Ketik perintah berikut
    ```bash
-   echo 'export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64' >> ~/.bashrc
+   echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> ~/.bashrc
    ```
 3. Kemudian, jalankan perintah berikut untuk add PATH ke dalam environment variables:
    ```bash
@@ -46,7 +46,7 @@
    ```
 6. Anda seharusnya melihat output yang menunjukkan path ke direktori Java, seperti:
    ```
-   /usr/lib/jvm/java-8-openjdk-amd64
+   /usr/lib/jvm/java-11-openjdk-amd64
    ```
 7. Untuk memastikan bahwa PATH telah diperbarui, Anda dapat menjalankan:
    ```bash
