@@ -13,13 +13,13 @@
 2. Ekstrak file yang telah diunduh
 
    ```bash
-   sudo tar -xzf apache-zookeeper-3.7.2-bin.tar.gz -C /usr/local/
+   sudo tar -xzf apache-zookeeper-3.8.4-bin.tar.gz -C /usr/local/
    ```
 
 3. Rename Direktori dan Pindahkan zookeeper
 
    ```bash
-   sudo mv /usr/local/apache-zookeeper-3.7.2-bin /usr/local/zookeeper
+   sudo mv /usr/local/apache-zookeeper-3.8.4-bin /usr/local/zookeeper
    ```
 
 4. Ubah kepemilikan direktori zookeeper
